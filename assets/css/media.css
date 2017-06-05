@@ -1,0 +1,11 @@
+@media screen and (min-width: 600px) and (max-width: 959px) {
+	#fondo {
+		background-image: url('../img/dawn.png');
+	}	
+}
+
+@media screen and (max-width: 599px) {
+	#fondo {
+		background-image: url('../img/night.jpg');
+	}	
+}
