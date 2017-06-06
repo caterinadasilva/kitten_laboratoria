@@ -152,6 +152,9 @@ width: 100%;
 margin: 5em 0 0;
 padding: 0 0 2em;
 overflow: hidden;
+bottom: 0;
+position: absolute;
+color: #fff;
 }
 /*INPUT CHECK*/
 input[type|=check] {
@@ -172,16 +175,16 @@ margin: 0;
 
 /* Especial */
 #fondo {
-	width: 100%;
-	height: 100vh;
-	background-image: url('../img/day.jpg');
-	background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex-direction: column;
+width: 100%;
+height: 100vh;
+background-image: url('../img/day.jpg');
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+flex-direction: column;
 }
 .gato {
-    margin-bottom: 4em;
+margin-bottom: 4em;
 }
